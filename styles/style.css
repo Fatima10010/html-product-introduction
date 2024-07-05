@@ -1,0 +1,156 @@
+/* font  */
+@font-face {
+    font-family: "Shabnam";
+    src:
+    local("Shabnam"),("vazir"),
+    url("../fonts/woff2/Shabnam-FD.woff2") format("woff2");
+}
+/* body */
+* {
+    font-family: "Shabnam";
+    box-sizing: border-box;
+    margin: 0%;
+    background-color: #fafafa;
+}
+.container {
+    max-width:1060px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    background-color: #ffffff;
+} 
+ /* abut sectoin top */
+.section_top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.section_tittle {
+    display: flex;
+    align-items: center;
+    transition: all 300ms ease-in;
+}
+.section_tittle:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.section_tittle:hover .section_new_icon{
+    transform: rotate(90deg);
+}
+.section_new_icon {
+    margin-left: 3px;
+    width: 20px;
+    height: 20px;
+    color: rgb(91, 181, 216);
+    transition: all 300ms ease-in;
+}
+.section_show_link {
+    color: rgb(91, 181, 216);
+    text-decoration: none;
+    margin-left: 8px;
+    transition: all 200ms ease-in;
+}
+.section_show_link:hover{
+    color: rgb(49, 132, 165);
+}
+
+ /* abut sectoin bottom */
+.sectoin_bottom {
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.box {
+    width: 100%;
+    box-shadow: 6px 6px 10px 2px rgba(0,0,0,0.08);
+    padding: 12px;
+    background-color: #fff;
+}
+.box_image {
+    max-width: 100%;
+    height: 210px;
+    transition: all 0.4s ease-in;
+}
+.box_image:hover{
+    transform: scale(1.1);
+    opacity: 0.9;
+}
+.box_tittle {
+    margin-top: 8px;
+    height: 78px;
+} 
+
+.box_tittle_link {
+    color: rgb(83, 75, 75);
+    text-decoration: none;
+    font-size: 12px;
+}
+.box_tittle_link:hover {
+    color: black;
+}
+.box_precent {
+    display: flex;
+    justify-content: right;
+    gap: 3px;
+    align-items: center;
+    font-size: 14px;
+}
+.box_precent_ratio {
+    color: rgb(85, 160, 207) ;
+    background-color: #cafcf9;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 2px;
+    display: inline-block;
+}
+.box_precent_ratioprice {
+    color: rgb(83, 75, 75);
+    text-decoration: line-through;
+}
+.box_final {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box_final_price {
+    display: flex;
+    justify-content: right;
+    gap: 6px;
+    align-items: center;
+}
+.box_final_price_number {
+    font-weight: bold;
+}
+.box_final_value {
+    font-size: 14px;
+    color: rgb(83, 75, 75);
+}
+.box_final_grade {
+    display: flex;
+    justify-content: left;
+    gap: 4px;
+    align-items: center;
+    margin-top: 10px; 
+}
+.box_final_grade_number {
+    color: rgb(83, 75, 75);
+    font-size: 14px;
+}
+.box_final_grade_staricon {
+    width: 18px;
+    height: 18px;
+    color: rgb(218, 163, 13);
+}
+
+
+
+
+
+
+
+
+
+
